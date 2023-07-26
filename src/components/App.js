@@ -10,8 +10,8 @@ function App() {
       <BrowserRouter>
         <AuthProvider>
           <Routes>
-            <Route path="/chats" element={<Chats />} />
             <Route path="/" element={<Login />} />
+            <Route path="/chats" element={<Chats />} />
           </Routes>
         </AuthProvider>
       </BrowserRouter>
